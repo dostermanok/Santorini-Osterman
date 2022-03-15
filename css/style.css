@@ -8,12 +8,14 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 
 html {
-    background-color:rgb(214, 215, 236);
     font-size: 62.5%;
+}
+
+.body {
+    background-color:rgb(214, 215, 236);
 }
 
 main {
@@ -27,7 +29,7 @@ header {
 }
 
 .logo {
-    width:15%;
+    width:20%;
     padding: 1rem;
 }
 
@@ -68,12 +70,13 @@ header {
 
 footer {
     background-color: black;
-    height: 10rem;
+    height: auto;
 }
 
 .fts {
     justify-content:left;
-    padding: 2rem;
+    align-items: center;
+    padding: 0.5rem;
 }
 
 .ft {
@@ -89,6 +92,7 @@ footer {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-top: 0.5em;
 }
 
 /* INDEX */
@@ -194,7 +198,6 @@ footer {
     }
 
 }
-
 
 /* PRODUCTOS */
 
