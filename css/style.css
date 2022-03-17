@@ -284,15 +284,15 @@ main {
 
 /* BOOTSTRAP EN CONTACTO */
 
-@media screen and (min-width: 450px) {
-    
-    .formcontact {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin-top: 10rem;
-    }
+.container {
+    justify-content: center;
+    align-items: center;
+}
 
+.formcontact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
 }
 
 /* .form {
