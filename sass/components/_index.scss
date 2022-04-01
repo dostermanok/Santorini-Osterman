@@ -1,3 +1,9 @@
+@mixin dimension{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
 .img {
 	display: grid;
 	padding: 5rem;
@@ -10,39 +16,27 @@
 }
 .vid1 {
 	grid-area: vid1;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	@include dimension;
 }
 .img1 {
 	grid-area: img1;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	@include dimension;
 }
 .img2 {
 	grid-area: img2;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	@include dimension;
 }
 .img3 {
 	grid-area: img3;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	@include dimension;
 }
 .img4 {
 	grid-area: img4;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	@include dimension;
 }
 .img5 {
 	grid-area: img5;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	@include dimension;
 }
 @media screen and (max-width: 412px) {
 	.img {
