@@ -17,6 +17,12 @@ html {
 main {
   min-height: 100vh; }
 
+.body {
+  background-color: #d6d7ec; }
+
+main {
+  min-height: 100vh; }
+
 header {
   background-color: #a7a5be; }
 
@@ -70,14 +76,13 @@ footer {
     width: 18rem;
     height: 100%; } }
 
-/* INDEX */
 .img {
   display: grid;
   padding: 5rem;
   justify-content: center;
   column-gap: 2rem;
   row-gap: 2rem;
-  grid-template-areas: "img1 img2 img3" "img4 img5 vid1";
+  grid-template-areas: "img1 img2 img3" "img4 img5 vid1";
   grid-template-columns: repeat(3, 1f);
   grid-template-rows: repeat(2, 50%); }
 
@@ -148,7 +153,6 @@ footer {
     width: 100%;
     object-fit: cover; } }
 
-/* PRODUCTOS */
 main {
   margin: 4rem; }
 
@@ -186,7 +190,6 @@ main {
     width: 90%;
     object-fit: cover; } }
 
-/* CLIENTES */
 .h2-title {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif; }
@@ -210,8 +213,6 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify; }
 
-/* CONTACTO */
-/* BOOTSTRAP EN CONTACTO */
 .container {
   justify-content: center;
   align-items: center; }
@@ -220,27 +221,3 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10rem; }
-
-/* .form {
-    display: flex;
-    flex-direction:column;
-    width: 50%;
-}
-
-#form {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-}
-
-@media screen and (max-width: 412px) {
-    .form {
-        display: flex;
-        flex-direction:column;
-        width: 100%;
-    }
-
-    #form {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
-    }
-} */
